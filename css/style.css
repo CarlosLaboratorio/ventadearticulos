@@ -1,0 +1,102 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    margin-left: 100px;
+    color:#260fba;
+
+}
+
+header {
+    background-image: url("../media/mecatronica.webp");
+    background-size:contain;
+    padding: 30px;
+}
+
+header li {
+    color:aqua;
+    text-decoration: none;
+    text-align: center;
+}
+
+header a {
+    color:rgb(124, 215, 215);
+    text-decoration: none;
+}
+
+.efectocirculo {
+    display:block;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px black;
+}
+
+p{ 
+    color:#260fba;
+    text-align: justify;
+}
+
+p span {
+    font-weight: bold;
+    color: rgb(3, 94, 94);
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 35px;
+    align-items: center;
+}
+
+.menu li {
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu li a{
+    color:beige;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #ffcc00;
+    background:  rgba(127, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.menuselect {
+    color: #ffcc00;
+    background: rgba(127, 0, 0, 0.9);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+fieldset {
+    max-width:fit-content;
+    margin-left:initial;
+    margin-right: auto;
+    padding: 40px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.whatsapp-logo {
+    position:fixed;
+    margin-left: 60%;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+
+    /* background-image: url("../media/VS-Code.webp"); */

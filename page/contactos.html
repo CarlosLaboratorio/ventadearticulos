@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contactos</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="menu-container">
+            <ul class="menu">
+                <li><img src="../media/VS-Code.webp" height="50px" alt="logo"></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a class="menuselect" href="#">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Contactos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta amet fuga ex ipsum laudantium. Consequatur, voluptatum dolor nemo incidunt deleniti consectetur, voluptatibus dolorem assumenda quam nisi nostrum vel id eveniet eos unde possimus in omnis placeat at illo illum dolore nulla aperiam impedit. Tempore itaque harum, culpa expedita sunt debitis rem sed pariatur. Qui est sed aliquam voluptatem reiciendis delectus ad natus nostrum similique minus. Nihil libero impedit molestias enim!</p>
+            <a href="https://wa.me/+5493794693257"><img src="../media/whatsapp-logo.gif" class="whatsapp-logo" alt="" height="70px"></a>
+        </div>
+        <form action="https://formsubmit.co/tu-correo@example.com" method="post">
+            <fieldset>
+                <legend>Enviar Mensaje</legend>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido"><br><br>
+                <label for="edad">Edad: </label>
+                <input type="number" name="edad" id="edad">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email"><br><br>
+                <label for="genero">Genero: </label>
+                <input type="radio" name="genero" id="genero_m" value="masculino">
+                <label for="genero_m">Masculino</label>
+                <input type="radio" name="genero" id="genero_f" value="femenino">
+                <label for="genero_f">Femenino</label>
+                <input type="radio" name="genero" id="genero_o" value="otro">
+                <label for="genero_m">Otro</label><br><br>
+
+                <select name="pais" id="pais" required>
+                    <option value="" disabled selected>Seleccione su pais</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="mexico">México</option>
+                    <option value="españa">España</option>
+                </select><br><br>
+                <label for="mensaje">Mensaje</label><br>
+                <textarea name="mensaje" id="mensaje" cols="50" rows="4" placeholder="Escribe tu mensaje.."></textarea><br>
+                <input type="checkbox" name="terminos" id="terminos" value="aceptado">
+                <label for="terminos">Acepto los terminos y condiciones</label><br><br>
+                <button type="reset">Limpiar</button>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        ©️ Copyright 2026 - Todos los derechos reservados
+    </footer>
+</body>
+</html>
